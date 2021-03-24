@@ -1,0 +1,32 @@
+{
+  "name": "restapimongodbsenac",
+  "version": "1.0.0",
+  "description": "Rest API que acessa dados em um banco MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfilitto/restapimongodbsenac.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "MONGODB"
+  ],
+  "author": "Danilo Filitto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfilitto/restapimongodbsenac/issues"
+  },
+  "homepage": "https://github.com/dfilitto/restapimongodbsenac#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.1",
+    "open": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
